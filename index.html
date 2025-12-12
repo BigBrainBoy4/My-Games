@@ -24,9 +24,10 @@
 
         hr {
             border: 5px solid orange;
+            width: 99%;
         }
 
-        .download {
+        button {
             background-color: red;
             color: black;
             width: 150px;
@@ -37,6 +38,10 @@
             padding-bottom: 55px; /*75px is for the 'windows download'*/
         }
 
+        button:hover {
+            background-color: rgb(255, 0, 179);
+        }
+        
         .horizon-color {
             color:rgb(255, 0, 179)
         }
@@ -62,8 +67,13 @@
     <div id="games">
         <div class="game-border">
             <h2>The Seven Seas</h2>
-            <a href="https://github.com/BigBrainBoy4/My-Games/releases/download/ver-1/The.Seven.Seas.zip" target="_blank"><button class="download"><h2><!---Windows--> Download</h2></button></a>
+            <a href="https://github.com/BigBrainBoy4/My-Games/releases/download/ver-1/The.Seven.Seas.zip" target="_blank"><button><h2><!---Windows--> Download</h2></button></a>
             <!-- <a href="" target="_blank"><button class="download"><h2>Mac Download</h2></button></a> add one day maybe -->
+            <h2>Description:</h2>
+            <ul>
+                <li>The main premise is to explore the seas and find treasure.</li>
+                <li>This will include multiplayer but thats coming soon.</li>
+            </ul>
             <h2>Patch Notes:</h2>
             <ul>
                 <li>11/30/2025: Offical Beta Release</li>
